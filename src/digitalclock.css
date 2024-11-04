@@ -1,0 +1,38 @@
+.clock-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('digitalclockbackgr.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #61dafb; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .clock-heading {
+    margin-bottom: 20px; 
+    color: #61dafb; 
+  }
+  
+  .clock {
+    font-size: 2rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #61dafb; 
+    padding: 20px; 
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 200px; 
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 0.3s; 
+  }
+  
+  .clock:hover {
+    transform: scale(1.1); 
+    border-color: #21a1f1; 
+  }
+  
